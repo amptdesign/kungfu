@@ -455,6 +455,9 @@ function twentyseventeen_scripts() {
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );
 	}
+
+	// LOAD AMPT DESIGN SCRIPTS
+	wp_enqueue_script( 'sweet-justice', get_theme_file_uri( '/assets/js/sweet-justice.min.js' ), array(), '1.0.0', true );
 }
 add_action( 'wp_enqueue_scripts', 'twentyseventeen_scripts' );
 

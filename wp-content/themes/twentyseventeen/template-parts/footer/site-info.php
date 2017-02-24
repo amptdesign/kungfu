@@ -10,5 +10,5 @@
 
 ?>
 <div class="site-info">
-	<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'twentyseventeen' ) ); ?>"><?php printf( __( 'Proudly powered by %s', 'twentyseventeen' ), 'WordPress' ); ?></a>
-</div><!-- .site-info -->
+	<div class="copyright"> Ampt Design © <a href="#" class="tooltip" title="Ahead of the Curve!">2010 - 2017</a> - Expanding your mind through superior Design! </div>
+</div>

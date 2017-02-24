@@ -30,7 +30,7 @@
 
 	<div class="panel-content">
 		<div class="wrap">
-			<header class="entry-header">
+			<header class="entry-header"><?php global $post; $post_slug=$post->post_name; echo '<a name="' .$post_slug .'">'; ?>
 				<?php the_title( '<h2 class="entry-title">', '</h2>' ); ?>
 
 				<?php twentyseventeen_edit_link( get_the_ID() ); ?>

@@ -2321,6 +2321,7 @@ body:not(.twentyseventeen-front-page) .entry-header {
 
 .social-navigation li {
 	display: inline;
+	border: none!important;
 }
 
 .social-navigation a {
@@ -3125,7 +3126,7 @@ object {
 
 
 .homepage-intro-header,.homepage-intro-text {
-	position: relative;
+	position: absolute;
 	color:#455a64;
 	z-index: 999;
 	font-weight: bold;
@@ -3133,28 +3134,30 @@ object {
 .homepage-intro-header {
 	display:block;
 	background:rgba(255,255,255,0.8);
-	margin:6% 0 10% 0;
+	margin:2% 0 10% 0;
 	width:100%;
 	height:auto;
 	vertical-align: middle;
 	text-align: center;
-	font-size:3.2em;
+	font-size: 3em;
+    letter-spacing: 0.5px;
 }
 .homepage-intro-text-wrapper{
+	position: absolute;
 	display:block;
-	position: relative;
 	width:100%;
 	text-align: right;
+	margin:300px 0 0 0;
+	z-index: 9999;
 }
 .homepage-intro-text {
-	display:inline-block;
-	position: relative;
-	
+	/*display:inline-block;*/
+	margin:0 0 0 30%;
 	width:70%;
 	height:auto;
-	font-size:2.4em;
+	font-size:2.2em;
 	line-height:1.3em;
-	padding:1.8% 2%;
+	padding:1.8% 10% 1.8% 2%;
 	text-align: left;
 
 	background:rgba(255,255,255,0.8);
@@ -3164,6 +3167,15 @@ object {
 	-moz-border-radius-bottomleft: 10px;
 	border-top-left-radius: 10px;
 	border-bottom-left-radius: 10px;px;
+}
+
+.copyright {
+    padding: 0;
+    margin: 0;
+    letter-spacing: .75px;
+    font-size: 15px;
+    color: #999;
+    display: block;
 }
 
 .debug {
@@ -3189,12 +3201,73 @@ object {
 19.0 Media Queries
 --------------------------------------------------------------*/
 
+
+@media screen and (min-width: 300px) and (max-width: 600px) {
+	.homepage-intro-header {
+		margin: 2% 0;
+		font-size: 2.5em;
+		line-height: 1.3em;
+		padding:5px 2px;
+	}
+
+	.homepage-intro-text-wrapper {
+		text-align: center;
+		margin:45% 0 0 0;
+	}
+	.homepage-intro-text {
+		margin:0;
+		width:100%!important;
+		font-size:1.6em;
+		line-height:1.2em;
+		padding:2%;
+		text-align: center;
+
+		-webkit-border-top-left-radius: 0;
+		-webkit-border-bottom-left-radius: 0;
+		-moz-border-radius-topleft: 0;
+		-moz-border-radius-bottomleft: 0;
+		border-top-left-radius: 0;
+		border-bottom-left-radius: 0;
+	}
+}
+
+@media screen and (min-width: 300px) and (max-width: 1000px) {
+	.homepage-intro-header {
+		margin: 2% 0;
+		font-size: 2.5em;
+		line-height: 1.3em;
+		padding:5px 2px;
+	}
+
+	.homepage-intro-text-wrapper {
+		text-align: center;
+		margin:45% 0 0 0;
+	}
+	.homepage-intro-text {
+		margin:0;
+		width:100%!important;
+		font-size:1.6em;
+		line-height:1.2em;
+		padding:2%;
+		text-align: center;
+
+		-webkit-border-top-left-radius: 0;
+		-webkit-border-bottom-left-radius: 0;
+		-moz-border-radius-topleft: 0;
+		-moz-border-radius-bottomleft: 0;
+		border-top-left-radius: 0;
+		border-bottom-left-radius: 0;
+	}
+}
+
 /* Adjust positioning of edit shortcuts, override style in customize-preview.css */
 @media screen and (min-width: 20em) {
 
 	body.customize-partial-edit-shortcuts-shown .site-header .site-title {
 		padding-left: 0;
 	}
+
+
 }
 
 @media screen and (min-width: 30em) {
@@ -3224,6 +3297,7 @@ object {
 	h3 {
 		font-size: 22px;
 		font-size: 1.375rem;
+		letter-spacing: 1px;
 	}
 
 	h4 {
@@ -4025,7 +4099,8 @@ object {
 		clear: left;
 		float: left;
 		margin-bottom: 0;
-		width: 36%;
+		/*width: 36%;*/
+		width: 66%;
 	}
 
 	.site-info {
