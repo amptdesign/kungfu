@@ -3138,15 +3138,12 @@ object {
 	vertical-align: middle;
 	text-align: center;
 	font-size:3.2em;
-
-	/*border: 1px solid red;*/
 }
 .homepage-intro-text-wrapper{
 	display:block;
 	position: relative;
 	width:100%;
 	text-align: right;
-	/*border:green dotted 1px;*/
 }
 .homepage-intro-text {
 	display:inline-block;
@@ -3166,8 +3163,13 @@ object {
 	-moz-border-radius-bottomleft: 10px;
 	border-top-left-radius: 10px;
 	border-bottom-left-radius: 10px;px;
+}
 
-	/*border: 1px double yellow;*/
+.debug {
+	border:2px dotted green;
+	z-index:9999;
+	visibility: visible;
+	display:show;
 }
 
 
