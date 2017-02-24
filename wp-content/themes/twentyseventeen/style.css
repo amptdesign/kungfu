@@ -3133,8 +3133,8 @@ object {
 }
 .homepage-intro-header {
 	display:block;
-	background:rgba(255,255,255,0.8);
-	margin:2% 0 10% 0;
+	background:rgba(255,255,255,0.9);
+	margin:3.5% 0 10% 0;
 	width:100%;
 	height:auto;
 	vertical-align: middle;
@@ -3160,7 +3160,7 @@ object {
 	padding:1.8% 10% 1.8% 2%;
 	text-align: left;
 
-	background:rgba(255,255,255,0.8);
+	background:rgba(255,255,255,0.9);
 	-webkit-border-top-left-radius: 10px;
 	-webkit-border-bottom-left-radius: 10px;
 	-moz-border-radius-topleft: 10px;
@@ -3176,6 +3176,43 @@ object {
     font-size: 15px;
     color: #999;
     display: block;
+}
+
+/*		
+
+		FORM STYLING	
+
+						*/
+
+.wpcf7-form input, .dark .wpcf7-form textarea, input, textarea {
+    border: 2px solid #DDD;
+    color: #b2b2b6;
+    letter-spacing: .5px;
+    padding: 12px;
+    margin: 0 0 10px;
+    width: 100%;
+    display: block;
+    vertical-align: baseline;
+    -webkit-transition: .2s border linear;
+    -moz-transition: .2s border linear;
+    transition: .2s border linear;
+    box-sizing: border-box;
+    -webkit-background-clip: padding;
+    -moz-background-clip: padding;
+    background-clip: padding-box;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    -webkit-appearance: none;
+}
+
+.wpcf7-form input, .wpcf7-form textarea, input, select, textarea {
+    background: #FFF;
+    outline: 0;
+    max-width: 100%;
+    -webkit-transform: translateZ(0);
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
 }
 
 .debug {
@@ -4103,10 +4140,10 @@ object {
 		width: 66%;
 	}
 
-	.site-info {
-		float: left;
-		padding: 0.7em 0 0;
-		width: 58%;
+	.footer-text-wrapper {
+		
+		padding: 5px;
+		width: 100%;
 	}
 
 	.social-navigation + .site-info {

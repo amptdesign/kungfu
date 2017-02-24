@@ -33,10 +33,10 @@
 							) );
 						?>
 					</nav><!-- .social-navigation -->
-				<?php endif;
+				<?php endif;?>
 
-				get_template_part( 'template-parts/footer/site', 'info' );
-				?>
+				<div class="footer-text-wrapper"><div class="copyright"> Ampt Design &copy; <a href="#" class="tooltip" title="Ahead of the Curve!">2010 - 2017</a> - Expanding your mind through superior Design! </div></div>
+				
 			</div><!-- .wrap -->
 		</footer><!-- #colophon -->
 	</div><!-- .site-content-contain -->
