@@ -10,6 +10,7 @@
 		$navMenuItem = $navigation.find( '.menu-item' ),
 		$menuToggle = $navigation.find( '.menu-toggle' ),
 		$menuScrollDown = $body.find( '.menu-scroll-down' ),
+		$_menuScrollDown = $body.find( '._menu-scroll-down' ),
 		$sidebar = $body.find( '#secondary' ),
 		$entryContent = $body.find( '.entry-content' ),
 		$formatQuote = $body.find( '.format-quote blockquote' ),
@@ -184,6 +185,14 @@
 			adjustScrollClass();
 		}
 
+		            // $_menuScrollDown.click( function( e ) {
+            //  e.preventDefault();
+            //  $( window ).scrollTo( '#what-is-shi-shui', {
+            //      duration: 600,
+            //      offset: { top: menuTop - navigationOuterHeight }
+            //  });
+            // });
+
 		// If 'Scroll Down' arrow in present on page, calculate scroll offset and bind an event handler to the click event.
 		if ( $menuScrollDown.length ) {
 
@@ -204,6 +213,7 @@
 					offset: { top: menuTop - navigationOuterHeight }
 				});
 			});
+
 		}
 
 		adjustHeaderHeight();
