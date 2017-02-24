@@ -1891,7 +1891,8 @@ body:not(.has-header-image):not(.has-header-video) .custom-header-media {
 body.page:not(.twentyseventeen-front-page) .entry-title {
 	color: #222;
 	font-size: 14px;
-	font-size: 0.875rem;
+	/*font-size: 0.875rem;*/
+	font-size: 1.875rem;
 	font-weight: 800;
 	letter-spacing: 0.14em;
 	text-transform: uppercase;
@@ -3518,6 +3519,7 @@ object {
 
 	.main-navigation a {
 		padding: 1em 1.25em;
+		/*padding: 1em 5px!important;*/
 	}
 
 	.main-navigation ul ul {
@@ -3935,7 +3937,9 @@ object {
 	.page.page-one-column .entry-header,
 	.twentyseventeen-front-page.page-one-column .entry-header,
 	.archive.page-one-column:not(.has-sidebar) .page-header {
-		margin-bottom: 4em;
+		/*margin-bottom: 4em;*/
+		margin-bottom: 1em;
+
 	}
 
 	.page:not(.home) #content {

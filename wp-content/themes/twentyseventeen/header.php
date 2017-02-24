@@ -43,8 +43,8 @@
 			<li id="menu-item-137" class="menu-item _menuScrollDown"><a href="http://localhost:20469/#home">What is Shih-Shui?</a></li>
 			<li id="menu-item-129" class="menu-item _menuScrollDown"><a href="http://localhost:20469/#health-benefits">Health Benefits</a></li>
 			<li id="menu-item-130" class="menu-item _menuScrollDown"><a href="http://localhost:20469/#meet-shifu-baron">Meet Shifu Baron</a></li>
-			<li id="menu-item-131" class="menu-item _menuScrollDown"><a href="http://localhost:20469/#look-inside-the-temple">Look inside the Temple</a></li>
-			<li id="menu-item-132" class="menu-item _menuScrollDown"><a href="http://localhost:20469/#faq">Frequently Asked Questions</a></li>
+			<li id="menu-item-131" class="menu-item _menuScrollDown"><a href="http://localhost:20469/#look-inside-the-temple">View the Temple</a></li>
+			<li id="menu-item-132" class="menu-item _menuScrollDown"><a href="http://localhost:20469/#faq">F.A.Q.</a></li>
 			<li id="menu-item-133" class="menu-item _menuScrollDown"><a href="http://localhost:20469/#contact">Contact</a></li>
 			</ul></div>
 			<a href="#content" class="menu-scroll-down"><svg class="icon icon-arrow-right" aria-hidden="true" role="img"> <use href="#icon-arrow-right" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-arrow-right"></use> </svg><span class="screen-reader-text">Scroll down to content</span></a>
