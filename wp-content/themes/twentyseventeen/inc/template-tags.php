@@ -134,9 +134,9 @@ endif;
 function twentyseventeen_front_page_section( $partial = null, $id = 0 ) {
 	if ( is_a( $partial, 'WP_Customize_Partial' ) ) {
 		// Find out the id and set it up during a selective refresh.
-		global $twentyseventeencounter;
+		global $panel_count;
 		$id = str_replace( 'panel_', '', $partial->id );
-		$twentyseventeencounter = $id;
+		$panel_count = $id;
 	}
 
 	global $post; // Modify the global post object before setting up post data.

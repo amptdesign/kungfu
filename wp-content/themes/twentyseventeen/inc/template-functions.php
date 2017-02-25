@@ -82,7 +82,7 @@ function twentyseventeen_panel_count() {
 	 *
 	 * @param $num_sections integer
 	 */
-	$num_sections = apply_filters( 'twentyseventeen_front_page_sections', 4 );
+	$num_sections = apply_filters( 'twentyseventeen_front_page_sections', 5 );
 
 	// Create a setting and control for each of the sections available in the theme.
 	for ( $i = 1; $i < ( 1 + $num_sections ); $i++ ) {
