@@ -3184,12 +3184,14 @@ object {
 
 						*/
 
-.wpcf7-form input, .dark .wpcf7-form textarea, input, textarea {
+.wpcf7-form input, .wpcf7-form textarea, input, textarea {
     border: 2px solid #DDD;
     color: #b2b2b6;
-    letter-spacing: .5px;
-    padding: 12px;
-    margin: 0 0 10px;
+    letter-spacing:.5px;
+    padding: 5px 0 5px 10px;
+    margin: 0;
+    font-size:18px!important;
+    line-height:1.5em!important;
     width: 100%;
     display: block;
     vertical-align: baseline;
@@ -3213,7 +3215,13 @@ object {
     -webkit-transform: translateZ(0);
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
-}
+   }
+
+	::-webkit-input-placeholder { color: #999!important;}
+	::-moz-placeholder { color: #999!important;}
+	:-ms-input-placeholder { color: #999!important;}
+	:-moz-placeholder { color: #999!important; }
+
 
 .debug {
 	border:2px dotted green;
