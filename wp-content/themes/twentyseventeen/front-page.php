@@ -22,9 +22,8 @@ get_header(); ?>
 			while ( have_posts() ) : the_post();
 				get_template_part( 'template-parts/page/content', 'front-page' );
 			endwhile;
-		endif; ?>
-
-		<?php
+		endif; 
+		
 		// Get each of our panels and show the post data.
 		if ( 0 !== twentyseventeen_panel_count() || is_customize_preview() ) : // If we have pages to show.
 
@@ -36,10 +35,7 @@ get_header(); ?>
 				twentyseventeen_front_page_section( null, $i );
 			}
 
-			// $panel_count++;
-			// echo "<span class='debug'>Panel Count:" .$panel_count ."</span>";
-
-	endif; // The if ( 0 !== twentyseventeen_panel_count() ) ends here. ?>
+		endif; ?>
 
 	</main><!-- #main -->
 </div><!-- #primary -->
