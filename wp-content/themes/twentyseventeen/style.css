@@ -3178,7 +3178,7 @@ object {
     overflow: hidden;
     /*visibility: hidden;*/
     top: -150px;
-    color:#fff;
+    z-index: -1;
 }
 
 .copyright {
@@ -3266,10 +3266,9 @@ object {
 		line-height: 1.3em;
 		padding:5px 2px;
 	}
-
 	.homepage-intro-text-wrapper {
 		text-align: center;
-		margin:45% 0 0 0;
+		margin:400px 0 0 0;
 	}
 	.homepage-intro-text {
 		margin:0;
@@ -3291,14 +3290,14 @@ object {
 @media screen and (min-width: 300px) and (max-width: 1000px) {
 	.homepage-intro-header {
 		margin: 2% 0;
-		font-size: 2.5em;
+		font-size: 2.2em;
 		line-height: 1.3em;
 		padding:5px 2px;
 	}
 
 	.homepage-intro-text-wrapper {
 		text-align: center;
-		margin:45% 0 0 0;
+		margin:240px 0 0 0;
 	}
 	.homepage-intro-text {
 		margin:0;

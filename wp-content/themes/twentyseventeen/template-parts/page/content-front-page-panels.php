@@ -29,9 +29,6 @@ global $panel_count;
 
 	<div class="panel-content"><?php global $post; $post_slug=$post->post_name; echo '<a class="offset-anchor" id="'.$post_slug.'" name="'.$post_slug.'">'.$post_slug.'</a>'; ?>
 
-<!-- <a class="ut-offset-anchor"  id="section-about" name="section-about">about</a> -->
-
-
 		<div class="wrap">
 			<header class="entry-header">
 				<?php the_title( '<h2 class="entry-title">', '</h2>' ); ?>

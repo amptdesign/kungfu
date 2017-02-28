@@ -28,9 +28,9 @@
 
 	<?php endif; ?>
 
-	<div class="panel-content">
+	<div class="panel-content"><a class="offset-anchor" id="home" name="home">home</a>
 		<div class="wrap">
-			<header class="entry-header"><?php //global $post; $post_slug=$post->post_name; echo '<a name="' .$post_slug .'">'; ?>
+			<header class="entry-header">
 				<?php the_title( '<h2 class="entry-title">', '</h2>' ); ?>
 
 				<?php twentyseventeen_edit_link( get_the_ID() ); ?>
