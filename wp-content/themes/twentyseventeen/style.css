@@ -51,6 +51,15 @@ Use it to make something cool, have fun, and share what you've learned with othe
 Styles based on Normalize v5.0.0 @link https://github.com/necolas/normalize.css
 --------------------------------------------------------------*/
 
+@font-face {
+    font-family: 'Lato';
+    src: url('fonts/lato-light-webfont.woff2') format('woff2'),
+         url('fonts/lato-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 html {
 	font-family: 'Lato', sans-serif;
 	line-height: 1.15;
@@ -3126,6 +3135,12 @@ object {
 					*/
 
 
+.site-content-contain {
+	background-color: #fff;
+	opacity: 0.95;
+}
+
+
 .homepage-intro-header,.homepage-intro-text {
 	position: absolute;
 	color:#455a64;
@@ -3197,42 +3212,51 @@ object {
 						*/
 
 .wpcf7-form input, .wpcf7-form textarea, input, textarea {
-    border: 2px solid #DDD;
-    color: #b2b2b6;
-    letter-spacing:.5px;
-    padding: 5px 0 5px 10px;
-    margin: 0;
-    font-size:18px!important;
-    line-height:1.5em!important;
-    width: 100%;
-    display: block;
-    vertical-align: baseline;
-    -webkit-transition: .2s border linear;
-    -moz-transition: .2s border linear;
-    transition: .2s border linear;
-    box-sizing: border-box;
-    -webkit-background-clip: padding;
-    -moz-background-clip: padding;
-    background-clip: padding-box;
-    -webkit-border-radius: 0;
-    -moz-border-radius: 0;
-    border-radius: 0;
-    -webkit-appearance: none;
+border: 2px solid #DDD;
+color: #b2b2b6;
+letter-spacing:.5px;
+padding: 5px 0 5px 10px;
+margin: 0;
+font-size:18px!important;
+line-height:1.5em!important;
+width: 100%;
+display: block;
+vertical-align: baseline;
+-webkit-transition: .2s border linear;
+-moz-transition: .2s border linear;
+transition: .2s border linear;
+box-sizing: border-box;
+-webkit-background-clip: padding;
+-moz-background-clip: padding;
+background-clip: padding-box;
+-webkit-border-radius: 0;
+-moz-border-radius: 0;
+border-radius: 0;
+-webkit-appearance: none;
 }
 
 .wpcf7-form input, .wpcf7-form textarea, input, select, textarea {
-    background: #FFF;
-    outline: 0;
-    max-width: 100%;
-    -webkit-transform: translateZ(0);
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-   }
+background: #FFF;
+outline: 0;
+max-width: 100%;
+-webkit-transform: translateZ(0);
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+}
 
-	::-webkit-input-placeholder { color: #999!important;}
-	::-moz-placeholder { color: #999!important;}
-	:-ms-input-placeholder { color: #999!important;}
-	:-moz-placeholder { color: #999!important; }
+::-webkit-input-placeholder { color: #999!important;}
+::-moz-placeholder { color: #999!important;}
+:-ms-input-placeholder { color: #999!important;}
+:-moz-placeholder { color: #999!important; }
+
+.wpcf7-submit {
+background-color:#8A6D46!important;
+color:#ccc!important;
+border:2px solid #555!important;
+font-style: bold!important;
+font-weight:800!important;
+font-size:1.2em!important;
+}
 
 
 .debug {
@@ -3650,6 +3674,7 @@ object {
 
 	.main-navigation a {
 		padding: 1em 1.25em;
+		/*padding: 0.5em;*/
 		/*padding: 1em 5px!important;*/
 	}
 

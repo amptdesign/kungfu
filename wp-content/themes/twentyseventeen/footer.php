@@ -21,7 +21,8 @@
 				<?php
 				get_template_part( 'template-parts/footer/footer', 'widgets' );
 
-				if ( has_nav_menu( 'social' ) ) : ?>
+				if ( has_nav_menu( 'social' ) ) : 
+				//if (true == false) : ?>
 					<nav class="social-navigation" role="navigation" aria-label="<?php _e( 'Footer Social Links Menu', 'twentyseventeen' ); ?>">
 						<?php
 							wp_nav_menu( array(
