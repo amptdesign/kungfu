@@ -51,14 +51,14 @@ Use it to make something cool, have fun, and share what you've learned with othe
 Styles based on Normalize v5.0.0 @link https://github.com/necolas/normalize.css
 --------------------------------------------------------------*/
 
-@font-face {
+/*@font-face {
     font-family: 'Lato';
     src: url('fonts/lato-light-webfont.woff2') format('woff2'),
          url('fonts/lato-light-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
-}
+}*/
 
 html {
 	font-family: 'Lato', sans-serif;
