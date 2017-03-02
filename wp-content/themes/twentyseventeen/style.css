@@ -2317,7 +2317,7 @@ body:not(.twentyseventeen-front-page) .entry-header {
 
 /* Social nav */
 
-.social-navigation {
+.s {
 	font-size: 16px;
 	font-size: 1rem;
 	margin-bottom: 1em;
@@ -3259,6 +3259,23 @@ font-size:1.2em!important;
 }
 
 
+/* FOOTER & WIDGETS */
+
+.footer-text-wrapper {
+	display: block;
+}
+
+
+.menu-social-links-menu-container {text-align:center;}
+
+.site-footer {
+	text-align: center;
+}
+
+.textwidget {
+	/*text-align: left;*/
+}
+
 .debug {
 	border:2px dotted green;
 	z-index:9999;
@@ -4179,11 +4196,12 @@ font-size:1.2em!important;
 	}
 
 	.social-navigation {
-		clear: left;
-		float: left;
-		margin-bottom: 0;
+		/*clear: left;
+		float: left;*/
+		margin-bottom: 40px;
 		/*width: 36%;*/
-		width: 66%;
+		/*width: 66%;*/
+		width:100%;
 	}
 
 	.footer-text-wrapper {
