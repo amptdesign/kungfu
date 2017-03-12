@@ -40,7 +40,8 @@
 				<li id="menu-item-35" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-35"><a href="mailto:shihshuikungfu@example.com"><span class="screen-reader-text">Email</span><svg class="icon icon-envelope-o" aria-hidden="true" role="img"> <use href="#icon-envelope-o" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-envelope-o"></use> </svg></a></li>
 				</ul></div></nav><!-- .social-navigation -->
 
-				<div class="footer-text-wrapper">DESIGNED BY <a href="http://amptdesign.com">AMPT DESIGN</a></div>
+				<p><br></p>
+				<div class="footer-text-wrapper">DESIGNED BY <a href="http://amptdesign.com" class="ampt-design">AMPT DESIGN</a></div>
 				
 			</div><!-- .wrap -->
 		</footer><!-- #colophon -->
