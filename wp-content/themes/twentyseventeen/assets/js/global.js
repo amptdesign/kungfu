@@ -25,7 +25,9 @@
 		headerOffset,
 		menuTop = 0,
 		resizeTimer;
-
+		ut_scrolleffect = $('body').data("scrolleffect"),
+		ut_scrollspeed	= $('body').data("scrollspeed");
+		
 	// Ensure the sticky navigation doesn't cover current focused links.
 	$( 'a[href], area[href], input:not([disabled]), select:not([disabled]), textarea:not([disabled]), button:not([disabled]), iframe, object, embed, [tabindex], [contenteditable]', '.site-content-contain' ).filter( ':visible' ).focus( function() {
 		if ( $navigation.hasClass( 'site-navigation-fixed' ) ) {
@@ -254,6 +256,40 @@
 	// Add header video class after the video is loaded.
 	$( document ).on( 'wp-custom-header-video-loaded', function() {
 		$body.addClass( 'has-header-video' );
+	});
+
+	/* Scroll to Section if Hash exists
+		================================================== */
+		$(window).load(function() {
+						
+			if( window.location.hash ) {
+				
+				setTimeout ( function () {
+																		
+					$.scrollTo( window.location.hash , ut_scrollspeed , { easing: ut_scrolleffect , offset: 0 , "axis":"y" } );
+																		
+				}, 400 );
+								
+			}
+			
+		});
+
+	/* Scroll to Sections / Main Menu
+	================================================== */
+	$('#site-navigation a').click( function(event) { 
+					
+		if(this.hash && !$(this).hasClass('external') ) {
+		
+			$.scrollTo( this.hash , ut_scrollspeed, { easing: ut_scrolleffect , offset: 0 , 'axis':'y' } );			
+			event.preventDefault();				
+			
+		} else if( this.hash && $(this).parent().hasClass('contact-us') ) {
+			
+			$.scrollTo( this.hash , ut_scrollspeed, { easing: ut_scrolleffect , offset: 0 , 'axis':'y' } );			
+			event.preventDefault();		
+			
+		}
+		
 	});
 
 })( jQuery );
