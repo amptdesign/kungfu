@@ -3326,7 +3326,7 @@ font-size:1.2em!important;
 
 
 @media screen and (min-width: 300px) and (max-width: 600px) {
-	.custom-header { margin-top: 30%; }
+	/*.custom-header { margin-top: 30%; }*/
 	.homepage-intro-header {
 		margin: 2% 0;
 		font-size: 2.5em;
