@@ -40,14 +40,16 @@
 				<nav id="site-navigation" class="main-navigation" role="navigation" aria-label="Top Menu">
 					<button class="menu-toggle" aria-controls="top-menu" aria-expanded="false"><svg class="icon icon-bars" aria-hidden="true" role="img"> <use href="#icon-bars" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-bars"></use> </svg><svg class="icon icon-close" aria-hidden="true" role="img"> <use href="#icon-close" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-close"></use> </svg>Menu</button>
 					<div class="menu-main-menu-container"><ul id="top-menu" class="menu">
+					<li id="menu-item-999" class="menu-item"><a href="/#home"><img src="/wp-content/themes/twentyseventeen/genital-weightlifting.jpg" class="main-logo"></a></li>
 					<li id="menu-item-137" class="menu-item _menuScrollDown"><a href="/#home">What is Shih Shui?</a></li>
 					<li id="menu-item-129" class="menu-item _menuScrollDown"><a href="/#health-benefits">Health Benefits</a></li>
+					<li id="menu-item-998" class="menu-item _menuScrollDown"><a href="/#lesson-plan">Lesson Plan</a></li>
 					<li id="menu-item-130" class="menu-item _menuScrollDown"><a href="/#meet-shifu-baron">Instructor</a></li>
 					<li id="menu-item-131" class="menu-item _menuScrollDown"><a href="/#look-inside-the-temple">Temple</a></li>
 					<li id="menu-item-132" class="menu-item _menuScrollDown"><a href="/#faq">F.A.Q.</a></li>
 					<li id="menu-item-133" class="menu-item _menuScrollDown"><a href="/#contact-us">Contact</a></li>
 					</ul></div>
-					<a href="#content" class="menu-scroll-down"><svg class="icon icon-arrow-right" aria-hidden="true" role="img"> <use href="#icon-arrow-right" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-arrow-right"></use> </svg><span class="screen-reader-text">Scroll down to content</span></a>
+					<!-- <a href="/#home" class="menu-scroll-down"><svg class="icon icon-arrow-right" aria-hidden="true" role="img"> <use href="#icon-arrow-right" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-arrow-right"></use> </svg><span class="screen-reader-text">Scroll down to content</span></a> -->
 				</nav><!-- #site-navigation -->
 			</div><!-- .wrap -->
 		</div><!-- .navigation-top -->

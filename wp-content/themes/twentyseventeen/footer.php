@@ -36,11 +36,12 @@
 				<div class="menu-social-links-menu-container"><ul id="menu-social-links-menu" class="social-links-menu"><li id="menu-item-31" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-31"><a href="https://www.yelp.com"><span class="screen-reader-text">Yelp</span><svg class="icon icon-yelp" aria-hidden="true" role="img"> <use href="#icon-yelp" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-yelp"></use> </svg></a></li>
 				<li id="menu-item-32" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-32"><a href="https://www.facebook.com/shihshuikungfu"><span class="screen-reader-text">Facebook</span><svg class="icon icon-facebook" aria-hidden="true" role="img"> <use href="#icon-facebook" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-facebook"></use> </svg></a></li>
 				<li id="menu-item-33" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-33"><a href="https://twitter.com/shihshuikungfu"><span class="screen-reader-text">Twitter</span><svg class="icon icon-twitter" aria-hidden="true" role="img"> <use href="#icon-twitter" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-twitter"></use> </svg></a></li>
-				<li id="menu-item-34" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-34"><a href="https://www.instagram.com/shihshuikungfu"><span class="screen-reader-text">Instagram</span><svg class="icon icon-instagram" aria-hidden="true" role="img"> <use href="#icon-instagram" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-instagram"></use> </svg></a></li>
+				<!-- <li id="menu-item-34" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-34"><a href="https://www.instagram.com/shihshuikungfu"><span class="screen-reader-text">Instagram</span><svg class="icon icon-instagram" aria-hidden="true" role="img"> <use href="#icon-instagram" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-instagram"></use> </svg></a></li> -->
 				<li id="menu-item-35" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-35"><a href="mailto:warriorofheaven1@aol.com"><span class="screen-reader-text">Email</span><svg class="icon icon-envelope-o" aria-hidden="true" role="img"> <use href="#icon-envelope-o" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-envelope-o"></use> </svg></a></li>
 				</ul></div></nav><!-- .social-navigation -->
+				
 
-				<p><br></p>
+				<p><br><a href="/#home"><img src="/wp-content/themes/twentyseventeen/genital-weightlifting-big.png" class="bottom-logo"></a><br></p>
 				<div class="footer-text-wrapper">DESIGNED BY <a href="http://amptdesign.com" class="ampt-design">AMPT DESIGN</a></div>
 				
 			</div><!-- .wrap -->
