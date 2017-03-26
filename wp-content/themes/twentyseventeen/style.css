@@ -4523,4 +4523,7 @@ font-size:1.2em!important;
 	text-align: center;
 }
 
-
+h4.sublesson {
+    letter-spacing: 1.2px;
+    font-weight: 400;
+}
