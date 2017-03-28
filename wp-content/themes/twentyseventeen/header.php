@@ -32,9 +32,23 @@
 
 	<header id="masthead" class="site-header" role="banner">
 
-		<?php get_template_part( 'template-parts/header/header', 'image' ); ?>
+	<div class="custom-header">
 
-		<?php if ( has_nav_menu( 'top' ) ) : ?>
+	<div class="custom-header-media">
+		<div id="wp-custom-header" class="wp-custom-header"><img src="/wp-content/uploads/2017/02/cropped-red-fire-god-p1.jpg" width="2000" height="1200" alt="Shih Shui Kung Fu" srcset="/wp-content/uploads/2017/02/cropped-red-fire-god-p1.jpg 2000w, /wp-content/uploads/2017/02/cropped-red-fire-god-p1-300x180.jpg 300w, /wp-content/uploads/2017/02/cropped-red-fire-god-p1-768x461.jpg 768w, /wp-content/uploads/2017/02/cropped-red-fire-god-p1-1024x614.jpg 1024w" sizes="100vw">
+		</div>	
+	</div>
+
+		<div class="site-branding">
+			<div class="wrap">
+				<div class="site-branding-text">
+					<h1 class="site-title"><a href="#home" rel="home">Shih Shui Kung Fu</a></h1>
+					<p class="site-description">YOUR PATH TO LONGEVITY</p>
+				</div><!-- .site-branding-text -->
+			</div><!-- .wrap -->
+		</div><!-- .site-branding -->
+	</div><!-- .custom-header -->
+
 		<div class="navigation-top">
 			<div class="wrap">
 				<nav id="site-navigation" class="main-navigation" role="navigation" aria-label="Top Menu">
@@ -65,7 +79,6 @@
 				</nav><!-- #site-navigation -->
 			</div><!-- .wrap -->
 		</div><!-- .navigation-top -->
-		<?php endif; ?>
 
 	</header><!-- #masthead -->
 

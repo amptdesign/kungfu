@@ -3140,20 +3140,13 @@ object {
 					*/
 
 
-.sweet-justice {
-	letter-spacing:0.5px;
-}
-
-.short-letter-space {
-	letter-spacing:1px;
-}
+.sweet-justice { letter-spacing:0.5px; }
+.short-letter-space { letter-spacing:1px; }
 
 .site-content-contain {
 	background-color: #fff;
 	opacity: 0.95;
 }
-
-
 .homepage-intro-header,.homepage-intro-text {
 	position: absolute;
 	color:#455a64;
@@ -3180,7 +3173,6 @@ object {
 	z-index: 9999;
 }
 .homepage-intro-text {
-	/*display:inline-block;*/
 	margin:0 0 0 30%;
 	width:70%;
 	height:auto;
@@ -3202,9 +3194,7 @@ object {
     width: 0;
     height: 0;
     position: relative;
-    /*display: block;*/
     overflow: hidden;
-    /*visibility: hidden;*/
     top: -150px;
     z-index: -1;
 }
@@ -3290,16 +3280,8 @@ font-size:1.2em!important;
 	text-decoration: underline;
 }
 
-
-.menu-social-links-menu-container {text-align:center;}
-
-.site-footer {
-	text-align: center;
-}
-
-.textwidget {
-	/*text-align: left;*/
-}
+.menu-social-links-menu-container { text-align:center; }
+.site-footer { text-align: center; }
 
 .debug {
 	border:2px dotted green;
@@ -3307,8 +3289,6 @@ font-size:1.2em!important;
 	visibility: visible;
 	display:show;
 }
-
-
 
 /* 
 
@@ -3546,7 +3526,7 @@ font-size:1.2em!important;
 	/* Layout */
 
 	.wrap {
-		max-width: 1200px;
+		max-width: 1100px;
 		padding-left: 3em;
 		padding-right: 3em;
 	}
@@ -3655,7 +3635,7 @@ font-size:1.2em!important;
 	}
 
 	.navigation-top .wrap {
-		max-width: 1200px;
+		max-width: 1100px;
 		/* The font size is 14px here and we need 50px padding in ems */
 		padding: 0.75em 3.4166666666667em;
 	}
