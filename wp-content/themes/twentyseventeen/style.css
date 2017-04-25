@@ -3637,7 +3637,8 @@ font-size:1.2em!important;
 	.navigation-top .wrap {
 		max-width: 1100px;
 		/* The font size is 14px here and we need 50px padding in ems */
-		padding: 0.75em 3.4166666666667em;
+		/*padding: 0.75em 3.4166666666667em;*/
+		padding-left:7em;
 	}
 
 	.navigation-top nav {
@@ -4258,7 +4259,8 @@ font-size:1.2em!important;
 
 	/* Navigation */
 	.navigation-top .wrap {
-		padding: 0.75em 2em;
+		/*padding: 0.75em 2em;*/
+		padding-left:7em;
 	}
 
 	.navigation-top nav {

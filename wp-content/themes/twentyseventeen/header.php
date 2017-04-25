@@ -17,6 +17,8 @@
 <head>
 <meta charset="<?php bloginfo( 'charset' ); ?>">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="title" content="Shih Shui Kung Fu Temple - Bone Marrow Washing - Genital Weightlifting - Sexual Rejuvination">
+<meta name="description" content="Shih Shui (pronounced she-sway), also known as ‘Bone Marrow Washing’ or ‘Iron Shirt Chi-Kung,’ is a component of the ancient Taoist Little Nine Heaven system which originated in China almost 2500 years ago. Shih Shui is an advanced form of chi-kung that focuses on strengthening the inner body. It also increases sexual energy with a ...">
 <link rel="profile" href="http://gmpg.org/xfn/11">
 <link href="https://fonts.googleapis.com/css?family=Lato:300" rel="stylesheet">
 <?php wp_head(); ?>
@@ -26,7 +28,7 @@
 <div id="page" class="site">
 		<div class="homepage-intro-header">Learn the Ancient Art of Shih Shui Kung Fu</div>
 			<div class="homepage-intro-text-wrapper">
-			<div class="homepage-intro-text">A scientific system of excercise that increases sexual function, improves overall health and promotes longevity.</div>
+			<div class="homepage-intro-text">A scientific system of exercise that increases sexual function, improves overall health and promotes longevity.</div>
 		</div> 
 	<a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', 'twentyseventeen' ); ?></a>
 
@@ -42,7 +44,7 @@
 		<div class="site-branding">
 			<div class="wrap">
 				<div class="site-branding-text">
-					<h1 class="site-title"><a href="#home" rel="home">Shih Shui Kung Fu</a></h1>
+					<h1 class="site-title"><a href="#home" rel="home">Shih Shui Kung Fu Temple</a></h1>
 					<p class="site-description">YOUR PATH TO LONGEVITY</p>
 				</div><!-- .site-branding-text -->
 			</div><!-- .wrap -->
